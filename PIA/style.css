@@ -1,0 +1,380 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: HelveticaNeue-Light, Helvetica Neue Light, Helvetica Neue, Helvetica, Arial, Lucida Grande, sans-serif;
+}
+
+.error {
+    padding: 5px 0;
+    height: 50px;
+    background: #fef8d5;
+}
+
+.error>i {
+    margin-left: 15%;
+}
+
+.error>h5 {
+    margin-top: -1.5%;
+    margin-left: 18%;
+    color: red;
+}
+
+.error>p {
+    margin-top: -2%;
+    margin-left: 24%;
+}
+
+.header {
+    height: 20px;
+}
+
+.header>li {
+    margin-top: -5.8%;
+    height: 20px;
+    list-style-type: none;
+    margin-left: 50%;
+}
+
+.header>li:hover {
+    cursor: pointer;
+    color: #69b342;
+}
+
+.header>img {
+    margin-left: 13%;
+}
+
+.head {
+    margin-top: 6.5%;
+    margin-left: 20%;
+    margin-bottom: -6%;
+    list-style-type: none;
+    font-size: 19px;
+    height: 20px;
+}
+
+.head>li:hover {
+    color: #69b342;
+    cursor: pointer;
+}
+
+.center>div {
+    position: relative;
+    z-index: 2px;
+    width: 1080px;
+    height: 320px;
+    background: #4ba8de63;
+    margin-top: 30%;
+    margin-left: 17%;
+}
+
+.center>div>.in {
+    margin-top: 2%;
+    margin-left: 3%;
+    width: 350px;
+    height: 30px;
+}
+
+.center>div>.in>input {
+    margin-bottom: .5%;
+    width: 350px;
+    height: 30px;
+}
+
+.center>div>.inp {
+    margin-left: 40%;
+    margin-top: -1.7%;
+}
+
+.center>div>.inp>input {
+    margin-bottom: 0%;
+    width: 350px;
+    height: 30px;
+}
+
+.center>div>div {
+    color: white;
+}
+
+.center>div>div>input {
+    margin-left: 3%;
+    margin-top: 2.5%;
+}
+
+.date {
+    margin-left: 80%;
+    margin-top: -12%;
+}
+
+.date>input {
+    margin-bottom: 35%;
+}
+
+.date>button {
+    width: 150px;
+    height: 30px;
+    background-color: greenyellow;
+    border: none;
+}
+
+.date>button:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.center>div>li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 235px;
+    height: 50px;
+    background-color: white;
+    border-left: 2px solid#12084d;
+}
+
+.center>div>li:hover {
+    background-color: #00567a;
+    color: white;
+    cursor: pointer;
+}
+
+.center>#image {
+    position: absolute;
+    z-index: 1px;
+    margin: -22.5% 0% 0 0%;
+    width: 1583px;
+    height: 750px;
+}
+
+.centr {
+    width: 780px;
+    margin-left: 1%;
+    margin-top: 7.5%;
+}
+
+.centr>img {
+    margin-bottom: 5%;
+}
+
+.cntr {
+    margin-top: -13.6%;
+    width: 770px;
+    float: right;
+}
+
+.cntr>img {
+    margin-bottom: 5%;
+}
+
+.container>.a>img {
+    margin-left: -5%;
+    transition: transform .6s;
+}
+
+.container>.a>img:hover {
+    transform: scale(1.06);
+}
+
+.container>.b>img {
+    margin-left: -1%;
+    transition: transform .6s;
+}
+
+.container>.b>img:hover {
+    transform: scale(1.06);
+}
+
+.c>img {
+    margin-left: -3.5%;
+    margin-top: 63%;
+    transition: transform .6s;
+}
+
+.c>img:hover {
+    transform: scale(1.06);
+}
+.c>h5 {
+    position: relative;
+    z-index: .5px;
+    width: 250px;
+    color: #fff;
+    height: 50px;
+    margin-left: 155.2%;
+    margin-top: 45%;
+    background: linear-gradient(-45deg, #12084d, #3567b7, #3a9ecf, #207cca);
+    padding: 10px 15px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.d>h5 {
+    position: relative;
+    z-index: .5px;
+    width: 250px;
+    color: #fff;
+    height: 50px;
+    margin-left: 14.2%;
+    margin-top: 10%;
+    background: linear-gradient(-45deg, #12084d, #3567b7, #3a9ecf, #207cca);
+    padding: 10px 15px;
+    font-size: 19px;
+    font-weight: 600;
+}
+
+.d>img {
+    margin-left: 50.3%;
+    margin-top: -5%;
+    margin-bottom: -35%;
+    transition: transform .6s;
+}
+
+.d>img:hover {
+    transform: scale(1.06);
+}
+
+.a>h5 {
+    position: relative;
+    z-index: .5px;
+    width: 250px;
+    color: #fff;
+    height: 50px;
+    margin-left: -5%;
+    margin-top: 30%;
+    background: linear-gradient(-45deg, #12084d, #3567b7, #3a9ecf, #207cca);
+    padding: 10px 15px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.b>h5 {
+    position: relative;
+    z-index: .5px;
+    width: 250px;
+    color: #fff;
+    height: 50px;
+    margin-left: -1%;
+    margin-top: 30%;
+    background: linear-gradient(-45deg, #12084d, #3567b7, #3a9ecf, #207cca);
+    padding: 10px 15px;
+    font-size: 19px;
+    font-weight: 600;
+}
+.container {
+    padding-left: 500px;
+    display: flex;
+    padding: 30px;
+    background: #4ba8de63;
+    background: -moz-linear-gradient(top, #4ba8de63 1%, #1d3c7563 100%);
+    background: -webkit-linear-gradient(top, #4ba8de63 1%, #1d3c7563 100%);
+    background: linear-gradient(to bottom, #4ba8de63 1%, #1d3c7563 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#4ba8de63', endColorstr='#1d3c7563', GradientType=0);
+    height: auto;
+    /* margin-top: 10%; */
+}
+
+.container>.in {
+    margin-left: 6.5%;
+    width: 350px;
+}
+
+.container>.inp {
+    margin-left: 3.5%;
+    width: 350px;
+}
+
+.container>button {
+    margin-left: 2.5%;
+    background: #69b342;
+    border: 1px solid #ffffff5e;
+    border-radius: 0px;
+    padding: 7px 0;
+    font-size: 13px;
+    display: block;
+    width: 15%;
+}
+
+.container>button:hover {
+    background-color: #00557a;
+}
+
+h1 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    margin-top: 20px;
+    margin-left: 14%;
+    color: #00557a;
+    font-size: 58px;
+    margin-bottom: 40px;
+    margin-bottom: 25px
+}
+
+.c {
+    margin-left: 15%;
+    margin-bottom: -15%;
+    width: 360px;
+    height: 400px;
+}
+
+.cc {
+    margin-left: 14%;
+    margin-top: 15%;
+    margin-bottom: -15%;
+    width: 360px;
+    height: 400px;
+}
+
+.ca {
+    margin-top: -29.2%;
+    margin-left: 39%;
+    width: 360px;
+    height: 400px;
+}
+
+.car {
+    margin-top: -21.9%;
+    margin-left: 64%;
+    width: 360px;
+    height: 400px;
+}
+
+.foot {
+    margin: 0 0 -5% 15%;
+    height: 500px;
+}
+
+.foot>h3 {
+    color: #69b342;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.foot>li {
+    list-style-type: none;
+}
+
+.foot>.logo {
+    margin-left: 67%;
+}
+
+.foot>.img {
+    margin-left: 67%;
+}
+
+.foot>.imag {
+    margin-top: -3%;
+    margin-left: 67%;
+}
+
+.footer {
+    border-top: 1px solid rgb(202, 201, 200);
+    background-color: white;
+    height: 150px;
+    margin: 0 5%;
+}
+
+.footer>.img {
+    margin-left: 70%;
+    margin-top: -9%;
+}

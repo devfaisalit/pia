@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>PIA/Airline</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="error">
+        <i class="bi bi-exclamation-triangle"></i>
+        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+            class="bi bi-exclamation-triangle" viewBox="0 0 16 16">
+            <path
+                d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z" />
+            <path
+                d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z" />
+        </svg>
+       <h5>Important:</h5>
+       <p> Travel updates due to COVID-19 (Coronavirus) situation</p>
+       <h5 style="margin-left: 50%;margin-top: -2.5%;">Read More</h5>
+    </div> 
+    <div class="header">
+        <img src="logo.webp" width="300px" height="100px">
+        <li>Press Release |</li>
+        <li style="margin-left: 58%;margin-top: -1.2%;">Contact us |</li>
+         <li style="margin-left: 66%;color: greenyellow;margin-top: -1.2%;"> Member Log In </li>
+       <li style="margin-left: 75%;margin-top: -1.2%;">| Corporate Website</li>
+    </div>
+      <div class="head">
+        <li>Where We Fly</li>
+        <li style="margin-left: 25%;margin-top: -2%;">Experience</li>
+        <li style="margin-left: 47%;margin-top: -2.2%;">Awards +Plus</li>
+        <li style="margin-left: 73%;margin-top: -2.2%;">Deals</li>
+      </div>
+
+    <div class="center">
+        <img src="" id="image">
+        <div>
+
+            <li style="background-color: #00567a;color: white;">Flight</li>
+            <li style="margin-left: 21%; margin-top: -4.6%;">Schedules</li>
+            <li style="margin-left: 40%;margin-top: -4.65%;">Web Check In</li>
+            <li style="margin-left: 59%;margin-top: -4.6%;">Flight Status</li>
+            <li style="margin-left: 78%;margin-top: -4.65%;">My Booking</li>
+            <div>
+                <input type="checkbox">
+                Return
+                <input type="checkbox">
+                Oneway
+                <input type="checkbox">
+                MultyCity
+            </div>
+            <div class="in">
+                <input type="Country" placeholder="From:airport&city"><br>
+                select departure date <br>
+                <input type="date" placeholder="select departure date" style="margin-top: -0%;"><br><br>
+                passengers <br>
+                <input type="passengers" placeholder="Adult,Old,Child">
+            </div>
+            <div class="inp">
+                <input type="Country" placeholder="To:airport&city" style="margin-top: -.5%;"> <br>
+                Return date <br>
+                 <input type="date" placeholder="select return date" style="margin-top: .5%;"> <br><br>
+                cabins <br>
+                <input type="text" placeholder="select Cabins" style="margin-top: -1.5%;margin-top: .8%;">
+            </div>
+            <div class="date">
+                <input type="checkbox"> My Dates Are Flexible <br>
+                <button>Find Flight</button>
+            </div>
+
+        </div>
+    </div>
+    <script>
+        let image = document.getElementById('image');
+        let images = ['ist.png', 'ap.jpg', 'mb.png']
+        setInterval(function () {
+            let random = Math.floor(Math.random() * 3);
+            image.src = images[random];
+        }, 1200);
+    </script>
+    <div class="centr">
+        <img src="d.jpg" width="770px">
+        <img src="a.gif" width="770px" style="margin-bottom: -15%;">
+    </div>
+    <div class="cntr">
+        <img src="c.gif" width="770px">
+        <img src="b.jpg" width="770px">
+    </div>
+
+
+    <h1 style="margin-top: 10%;">Latest Flight Deals</h1>
+    <div class="container" style="background: white;">
+        <div class="a">
+            <img src="ci.jpg">
+            <h1 style="margin-top: -66%; margin-left: -2%; color: white;">London</h1>
+            <p style="color: white;">Round Trip To Islamabad</p>
+            <h5>Starting from GBP 340*</h5>   
+        </div>
+        <div class="b">
+            <img src="c2.jpg" width="550px" height="370px">
+            <h1 style="margin-top: -66%; margin-left: 2%; color: white;">Saudi Arabia</h1>
+            <p style="color: white;margin-left: 5%;">From-To</p>
+            <h5>More Details</h5>
+        </div>
+    </div>
+
+    <div class="c" style="margin-top: -12%;">
+        <img src="c4.jpg">
+        <h1 style="margin-top: -100%; margin-left: -0%; color: white;">Brimingham</h1>
+        <p style="color: white; margin-left: 3%;">Round Trip To Islamabad</p>
+        <h5>Starting from GBP 360*</h5>
+    </div>
+    <div class="d">
+        <img src="c3.jpg">
+        <h1 style="margin-top: 3.5%; margin-left: 51%; color: white;">Manchester</h1>
+        <p style="color: white; margin-left: 52%;">Round Trip To Islamabad</p>
+        <h5>Starting from GBP 360*</h5>
+    </div>
+
+
+    <h1 style=" margin-top: 5%;">All Deals</h1>
+    <div class="container">
+        <input class="in" type="city" placeholder="From-to">
+        <input class="inp" type="date" placeholder="Select Departure Date">
+        <button>search for deals</button>
+    </div>
+    <h1 style="margin-bottom: -10%;">Value Added Services</h1>
+    <div class="cc">
+        <img src="sf.png">
+        <h3 style="color: #69b342;">EXTRA BGGAGE</h3>
+        <p style="color: blue;">Explore more</p>
+    </div>
+    <div class="ca">
+        <img src="ss.png" style="margin-top: 17%;">
+        <h3 style="color: #69b342;">GOLD REWARDS</h3>
+        <p style="color:  blue;">Explore more</p>
+    </div>
+    <div class="car" style="margin-bottom: 0;">
+        <img src="st.png" style="margin-top: 2%;">
+        <h3 style="color: #69b342;">SEAT UPGRADE</h3>
+        <p style="color: blue;">Explore more</p>
+    </div>
+
+    <div class="foot">
+        <h3> Facilities</h3>
+        <li>
+            Air Passenger Rights<br>
+            Conditions of Carriage<br>
+            Booking Conditions<br>
+            Traveler's Information<br>
+            Overseas Pakistanis<br>
+            Track Your Cargo (Intl.)<br>
+        </li>
+        <h3 style="margin-left: 20%; margin-top: -14%;">Experience</h3>
+        <li style="margin-left: 20%;">
+            Cabins <br>
+            Êxecutive Economy<br>
+            Economy<br>
+            Special Assistance<br>
+            Special Assistance Form<br>
+            Baggage<br>
+            Baggage Guide<br>
+            Advance Purchase Excess Baggage<br>
+            Seat<br>
+            Extra Legroom<br>
+            Preferred Seat<br>
+            Magazines - Humsafar / Air Safety<br>
+            In-Flight Seat Upgrade<br>
+        </li>
+        <h3 style="margin-left: 43%;margin-top: -26%;">
+            Quick Links
+        </h3>
+        <li style="margin-left: 43%;">
+            Customer Care<br>
+            Contact Us<br>
+            FAQs<br>
+            Site Map<br>
+            Privacy Policy<br>
+            Business with PIA<br>
+            Travel Advisory Updates<br>
+            Travel Update and Information<br>
+        </li>
+        <h3 style="margin-left: 65%;margin-top: -18%;">
+            Connect with us
+        </h3>
+        <div class="logo">
+            <img src="fl.webp" width="25px" height="25px">
+            <img src="tl.webp" width="25px" height="25px">
+            <img src="th.webp" width="25px" height="25px">
+            <img src="yl.webp" width="30px" height="25px">
+        </div>
+        <div class="img">
+            <img src="app.webp" width="150px" height="130px">
+        </div>
+        <div class="imag">
+            <img src="ga.webp" width="150px" height="100px">
+        </div>
+    </div>
+
+    <div class="footer">
+        <img src="logo.webp" height="110px" width="250px">
+        <p style="color: rgba(0, 0, 0, 0.642);margin-top: -1px; ">© Copyright 2022, Pakistan International Airlines, All
+            Right Reserved</p>
+        <div class="img">
+            <img src="pmdu.jpg" width="80px" height="60px">
+            <img src="fls.webp" width="80px" height="60px">
+            <img src="ft.webp" width="80px" height="60px">
+        </div>
+    </div>
+</body>
+
+</html>
